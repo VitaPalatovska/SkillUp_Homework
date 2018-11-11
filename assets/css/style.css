@@ -277,9 +277,50 @@ h2 {
   color: #808080;
   font-size: 16px; }
 
-.footer-aside p {
+footer .bg {
+  background-size: cover; }
+
+footer .footer-aside p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   letter-spacing: .02em;
   color: #808080;
   font-size: 16px; }
+
+footer .contact-info h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin-bottom: 30px; }
+
+footer .contact-info a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px; }
+
+footer .contact-info a:hover {
+  text-decoration-line: underline; }
+
+footer .contact-info p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px; }
+
+footer .footer-social-icons {
+  font-size: 20px; }
+  footer .footer-social-icons i {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px 10px;
+    text-align: center;
+    line-height: 1.4; }
+  footer .footer-social-icons i:hover {
+    background-color: white;
+    color: #75c15b;
+    font-weight: bold; }
