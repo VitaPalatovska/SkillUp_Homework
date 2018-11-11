@@ -17,6 +17,7 @@ body {
 	font-family: $font-family-sans-serif;
   	font-color: #aaa;
   	font-size: 14px;
+  	position: relative;
 }
 
 .header ul {
@@ -382,4 +383,20 @@ footer{
 			font-weight: bold;
 		}
 	}
+}
+
+.scroll-to-top{
+	@include large-btn;
+	padding: 10px 20px;
+    font-size: 25px;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+
+}
+
+.scroll-to-top:hover{
+	color: $white;
+    background-color: $orange-primary;
+    border-color: $orange-primary;
 }

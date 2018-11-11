@@ -15,7 +15,8 @@
 body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   font-color: #aaa;
-  font-size: 14px; }
+  font-size: 14px;
+  position: relative; }
 
 .header ul {
   list-style: none;
@@ -324,3 +325,25 @@ footer .footer-social-icons {
     background-color: white;
     color: #75c15b;
     font-weight: bold; }
+
+.scroll-to-top {
+  color: #fff;
+  background-color: #75c15b;
+  border-color: #75c15b;
+  border: 1px solid #75c15b;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 17px 30px;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 10px 20px;
+  font-size: 25px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px; }
+
+.scroll-to-top:hover {
+  color: #fff;
+  background-color: #ff8820;
+  border-color: #ff8820; }
