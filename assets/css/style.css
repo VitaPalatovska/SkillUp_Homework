@@ -9,6 +9,9 @@
 * {
   box-sizing: border-box; }
 
+*:hover {
+  transition: 250ms all ease-in-out; }
+
 body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   font-color: #aaa;
@@ -148,11 +151,77 @@ h2 {
 .search-btn:hover {
   color: #fff;
   background-color: #ff8820;
-  border-color: #ff8820;
-  transition: 250ms all ease-in-out; }
+  border-color: #ff8820; }
 
-.info-box div.info-content {
+.info-box .info-content {
   margin: 100px 0; }
+
+.info-box h2 {
+  font-size: 30px;
+  margin-bottom: 2rem; }
+
+.info-box .article img {
+  margin-right: 15px;
+  border-radius: 5px; }
+
+.info-box .article a {
+  margin-left: 5rem;
+  color: #75c15b; }
+  .info-box .article a i {
+    font-size: 1,5em; }
+
+.info-box .article a:hover {
+  color: #ff8820; }
+
+.info-box .article-text h3 {
+  margin-bottom: 2rem; }
+
+.info-box .contacts .phone p {
+  color: #ff8820; }
+
+.info-box .contacts .phone p:hover {
+  color: #75c15b; }
+
+.info-box .contacts .phone i {
+  font-size: 30px;
+  color: #808080;
+  margin-right: 25px; }
+
+.info-box .contacts p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: .02em;
+  color: #808080;
+  font-size: 16px;
+  color: black;
+  font-size: 20px; }
+
+.info-box .contacts hr {
+  width: 70px;
+  margin: 2rem 0;
+  margin-right: 50px;
+  background-color: #808080; }
+
+.info-box .contacts input {
+  width: 100%;
+  border: 1px solid #808080;
+  letter-spacing: 0.05em;
+  border-radius: 4px;
+  padding: 17px 20px;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 2em;
+  position: relative; }
+
+.info-box .contacts span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: .02em;
+  color: #808080;
+  font-size: 16px;
+  font-size: 20px;
+  font-style: italic;
+  font-size: 14px; }
 
 .client-review i {
   color: #75c15b;
@@ -193,7 +262,6 @@ h2 {
   border-radius: 4px; }
 
 .client-review .avatar button:hover {
-  transition: 250ms all ease-in-out;
   box-shadow: 1px 1px 11px 5px rgba(53, 53, 53, 0.19); }
 
 .client-review .avatar button:focus {

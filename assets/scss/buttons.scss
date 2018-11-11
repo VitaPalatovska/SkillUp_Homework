@@ -10,7 +10,7 @@
 	color: $white;
     background-color: $orange-primary;
     border-color: $orange-primary;
-    transition: 250ms all ease-in-out;
+    
 }
 
 @mixin large-btn{
@@ -26,6 +26,6 @@
 }
 
 @mixin avatar-hover{
-	transition: 250ms all ease-in-out;
+
 	box-shadow: 1px 1px 11px 5px rgba(53,53,53,0.19);
 }
