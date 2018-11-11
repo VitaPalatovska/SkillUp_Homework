@@ -82,14 +82,20 @@ body {
 }
 
 .banner{
-	height: 450px;
+	height: 490px;
+}
+
+.bg-gradient{
+	height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.21));
 }
 
 .bg{
-	background-size: cover;
-    background-origin: border-box;
-    background-repeat: no-repeat;
-    background-position: center center;
+		background-attachment: scroll;
+    	background-origin: border-box;
+    	background-repeat: no-repeat;
+    	background-position: center center;
+
 }
 
 .content-row{
@@ -108,6 +114,7 @@ body {
 		width: 94px;
     	height: 94px;
     	border:none;
+    	margin-bottom: 30px;
 	}
 
 	.clear-box{
@@ -122,5 +129,54 @@ body {
 		    display: inline-block;
     		color: white;
     		text-decoration: none;
+	}
+}
+
+.text-baloo{
+	@include text-baloo;
+}
+
+h2{
+	font-size: 40px;
+}
+
+.align-middle{
+	vertical-align: middle;
+}
+
+.offer-banner{
+	h4{
+		@include h4-montserrat;
+		line-height: 1.47;
+	}
+
+	p.text-baloo{
+		margin-left: 15px;
+	}
+}
+
+.search-tour-banner{
+	h4{
+		margin-bottom: 50px;
+	}
+}
+
+.search-btn{
+	@include large-btn;
+	@include h4-montserrat;
+	
+	box-shadow: 1px 1px 5px 0px rgba(53,53,53,1);
+	i{
+		vertical-align: middle;
+	}
+}
+
+.search-btn:hover{
+	@include btn-style-hover;
+}
+
+.info-box{
+	div.info-content{
+		margin: 100px 0;
 	}
 }

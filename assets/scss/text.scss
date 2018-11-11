@@ -1,1 +1,14 @@
 @import './colors.scss';
+@import url('https://fonts.googleapis.com/css?family=Baloo|Montserrat:500|Open+Sans');
+
+@mixin text-baloo{
+	font-family: Baloo, cursive;
+    font-size: 80px;
+    /*line-height: 1;*/
+    letter-spacing: -.04em;
+}
+
+@mixin h4-montserrat{
+	font-family: 'Montserrat', sans-serif;
+    
+}

@@ -4,6 +4,7 @@
 /**
  * Colors
  */
+@import url("https://fonts.googleapis.com/css?family=Baloo|Montserrat:500|Open+Sans");
 @import url(./node_modules/font-awesome/css/font-awesome.css);
 * {
   box-sizing: border-box; }
@@ -75,10 +76,14 @@ body {
     color: white; }
 
 .banner {
-  height: 450px; }
+  height: 490px; }
+
+.bg-gradient {
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.21)); }
 
 .bg {
-  background-size: cover;
+  background-attachment: scroll;
   background-origin: border-box;
   background-repeat: no-repeat;
   background-position: center center; }
@@ -94,7 +99,8 @@ body {
 .avatar button {
   width: 94px;
   height: 94px;
-  border: none; }
+  border: none;
+  margin-bottom: 30px; }
 
 .avatar .clear-box {
   width: 94px; }
@@ -105,3 +111,50 @@ body {
     display: inline-block;
     color: white;
     text-decoration: none; }
+
+.text-baloo {
+  font-family: Baloo, cursive;
+  font-size: 80px;
+  /*line-height: 1;*/
+  letter-spacing: -.04em; }
+
+h2 {
+  font-size: 40px; }
+
+.align-middle {
+  vertical-align: middle; }
+
+.offer-banner h4 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.47; }
+
+.offer-banner p.text-baloo {
+  margin-left: 15px; }
+
+.search-tour-banner h4 {
+  margin-bottom: 50px; }
+
+.search-btn {
+  color: #fff;
+  background-color: #75c15b;
+  border-color: #75c15b;
+  border: 1px solid #75c15b;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 17px 30px;
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 1px 1px 5px 0px #353535; }
+  .search-btn i {
+    vertical-align: middle; }
+
+.search-btn:hover {
+  color: #fff;
+  background-color: #ff8820;
+  border-color: #ff8820;
+  transition: 250ms all ease-in-out; }
+
+.info-box div.info-content {
+  margin: 100px 0; }

@@ -1,0 +1,26 @@
+@import './colors.scss';
+
+@mixin btn-style{
+	color: $white;
+    background-color: $basic-green;
+    border-color: $basic-green;
+}
+
+@mixin btn-style-hover{
+	color: $white;
+    background-color: $orange-primary;
+    border-color: $orange-primary;
+    transition: 250ms all ease-in-out;
+}
+
+@mixin large-btn{
+	@include btn-style;
+
+	border: 1px solid $basic-green;
+	letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 17px 30px;
+    font-size: 15px;
+    line-height: 1.5;
+}
