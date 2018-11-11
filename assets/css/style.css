@@ -4,7 +4,7 @@
 /**
  * Colors
  */
-@import url("https://fonts.googleapis.com/css?family=Baloo|Montserrat:500|Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Baloo|Montserrat:400,500|Open+Sans");
 @import url(./node_modules/font-awesome/css/font-awesome.css);
 * {
   box-sizing: border-box; }
@@ -96,15 +96,6 @@ body {
 .white-text {
   color: #fff; }
 
-.avatar button {
-  width: 94px;
-  height: 94px;
-  border: none;
-  margin-bottom: 30px; }
-
-.avatar .clear-box {
-  width: 94px; }
-
 .contact-info {
   padding: 100px 0px; }
   .contact-info a {
@@ -119,13 +110,16 @@ body {
   letter-spacing: -.04em; }
 
 h2 {
-  font-size: 40px; }
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500; }
 
 .align-middle {
   vertical-align: middle; }
 
 .offer-banner h4 {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   line-height: 1.47; }
 
 .offer-banner p.text-baloo {
@@ -146,6 +140,7 @@ h2 {
   font-size: 15px;
   line-height: 1.5;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   box-shadow: 1px 1px 5px 0px #353535; }
   .search-btn i {
     vertical-align: middle; }
@@ -158,3 +153,65 @@ h2 {
 
 .info-box div.info-content {
   margin: 100px 0; }
+
+.client-review i {
+  color: #75c15b;
+  font-size: x-large; }
+
+.client-review .review-box {
+  margin-top: 70px; }
+
+.client-review .review {
+  margin-left: 30px; }
+  .client-review .review p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: .02em;
+    color: #808080;
+    font-size: 16px;
+    font-size: 20px;
+    font-style: italic; }
+  .client-review .review hr {
+    width: 80px;
+    margin: auto 0;
+    margin-right: 50px;
+    background-color: #353535; }
+  .client-review .review cite {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-weight: 600;
+    font-style: inherit;
+    font-size: 18px; }
+  .client-review .review .cite {
+    margin: 50px 0; }
+
+.client-review .avatar button {
+  width: 94px;
+  height: 94px;
+  border: none;
+  margin-bottom: 30px;
+  border-radius: 4px; }
+
+.client-review .avatar button:hover {
+  transition: 250ms all ease-in-out;
+  box-shadow: 1px 1px 11px 5px rgba(53, 53, 53, 0.19); }
+
+.client-review .avatar button:focus {
+  box-shadow: 1px 1px 11px 5px rgba(53, 53, 53, 0.19); }
+
+.client-review .avatar .clear-box {
+  width: 94px; }
+
+.article-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: .02em;
+  color: #808080;
+  font-size: 16px; }
+
+.footer-aside p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: .02em;
+  color: #808080;
+  font-size: 16px; }

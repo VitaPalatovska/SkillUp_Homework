@@ -1,5 +1,5 @@
 @import './colors.scss';
-@import url('https://fonts.googleapis.com/css?family=Baloo|Montserrat:500|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Baloo|Montserrat:400,500|Open+Sans');
 
 @mixin text-baloo{
 	font-family: Baloo, cursive;
@@ -10,5 +10,19 @@
 
 @mixin h4-montserrat{
 	font-family: 'Montserrat', sans-serif;
-    
+	font-weight: 500;   
+}
+
+@mixin review-text{
+	@include basic-grey-text;
+	font-size: 20px;
+	font-style: italic;
+}
+
+@mixin basic-grey-text{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	letter-spacing: .02em;
+	color: $basic-grey;
+	font-size: 16px;
 }
