@@ -96,7 +96,7 @@
     <section class="client-review section-md">
         <div class="content-row d-flex justify-content-center">
             <div class="col-lg-11 d-lg-flex d-md-flex justify-content-between flex-wrap">
-                <div class=" col-lg-7 ">
+                <div class=" col-lg-7 col-md-12">
                     <h2>What Our Clients Say</h2>
                     <div class="review-box d-flex">
                         <i class="fa fa-quote-left"></i>
@@ -108,8 +108,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="avatar d-flex justify-content-around col-lg-4 col-sm-12 flex-wrap">
-                    <div class="clear-box col-md-auto"> </div>
+                <div class="avatar d-flex justify-content-around col-lg-4 col-md-12 col-sm-12 flex-wrap">
+                    <div class="clear-box col-lg-auto "> </div>
                     <button class="bg order-lg-0"style="background-image: url(images/home-1-4-94x94.jpg);"></button>
                     <button class="bg"style="background-image: url(images/home-1-5-94x94.jpg);"></button>
                     <button class="bg"style="background-image: url(images/home-1-6-94x94.jpg);"></button>
@@ -136,9 +136,10 @@
     </section>
     <section class="info-box d-flex justify-content-center section-md">
         <div class="info-content col-lg-11 d-lg-flex d-md-flex d-flex justify-content-between flex-wrap">
-            <div class="article md-col col-lg-6 col-xl-5 col-md-12 col-sm-12">
+            <div class="article  md-col col-lg-6 col-xl-5 col-md-12 col-sm-12 flex-wrap">
                 <h2>Recent News</h2>
-                <div class="article-content">
+                <div class="d-flex flex-lg-column">
+                    <div class="article-content col-md-5 col-lg-12">
                     <div class="content-row  d-flex">
                         <div><img src="images/home-1-10-115x108.jpg"></div>
                         <div class="article-text col-lg-10">
@@ -151,7 +152,7 @@
                     </div>
                     </div>
                 </div>
-                <div class="article-content">
+                <div class="article-content flex-lg-column col-md-5 col-lg-12 flex-wrap">
                     <div class="content-row  d-flex">
                         <div>
                             <img src="images/home-1-11-115x108.jpg">
@@ -166,18 +167,23 @@
                     </div>
                     </div>
                 </div>
+                </div>
             </div>
-            <div class="contacts md-col flex-column col-lg-5 col-xl-4 col-md-12 col-sm-12">
-                <h2>Our Contacts</h2>
-                <p>9 Valley St. Brooklyn, NY 11203</p>
-                <div class="phone d-flex">
-                    <i class="fa fa-phone"></i>
-                    <p>1-800-346-6277</p>
+            <div class="contacts d-flex flex-wrap col-lg-6 col-xl-4">
+                <div class="col-md-6 col-sm-6 col-lg-12">
+                    <h2>Our Contacts</h2>
+                    <p>9 Valley St. Brooklyn, NY 11203</p>
+                    <div class="phone d-flex">
+                        <i class="fa fa-phone"></i>
+                        <p>1-800-346-6277</p>
+                    </div>
                 </div>
                 <hr>
-                <h2>Newsletter Signup</h2>
-                <input type="email" name="" placeholder="Enter your E-mail">
-                <span>Subscribe to receive our best monthly deals.</span>
+                <div class="col-md-6 col-sm-6 col-lg-12">
+                    <h2>Newsletter Signup</h2>
+                    <input type="email" name="" placeholder="Enter your E-mail">
+                    <span>Subscribe to receive our best monthly deals.</span>
+                </div>
             </div>
         </div>
     </section>
@@ -186,7 +192,7 @@
            <div class="bg-gradient">
                 <div class="contact-info content-row white-text d-flex justify-content-center">
                 <div class="col-lg-11 d-lg-flex d-md-flex d-flex justify-content-between">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-3">
                         <h3>QUICK LINKS</h3>
                         <div class="d-flex justify-content-between">
                             <div class="d-flex flex-column">
@@ -206,14 +212,14 @@
                         </div>
                     </div>
 
-                    <div class="d-flex flex-column col-lg-3">
+                    <div class="d-flex flex-column col-lg-3 col-md-3">
                         <h3>GET IN TOUCH</h3>
                         <p>9 Valley St. Brooklyn, NY 11203</p>
                         <a href="">1-800-346-6277</a>
                         <a href="">info@demolink.org</a>
                     </div>
 
-                    <div class="d-flex flex-column col-lg-3 col-sm-4">
+                    <div class="d-flex flex-column col-lg-3 col-sm-4 col-md-3">
                         <h3>FOR TRAVELERS</h3>
                         <a href="">Tours</a>
                         <a href="">Destinations</a>

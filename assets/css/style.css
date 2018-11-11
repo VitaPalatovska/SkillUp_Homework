@@ -6,11 +6,36 @@
  */
 @import url("https://fonts.googleapis.com/css?family=Baloo|Montserrat:400,500|Open+Sans");
 @import url(./node_modules/font-awesome/css/font-awesome.css);
+@-ms-viewport {
+  width: device-width; }
+
 * {
   box-sizing: border-box; }
 
 *:hover {
   transition: 250ms all ease-in-out; }
+
+@media (max-width: 1082px) {
+  .clear-box {
+    display: none; }
+  .contacts hr {
+    display: none; } }
+
+@media (min-width: 768px) {
+  *h4 {
+    font-size: 21px; }
+  *h2 {
+    font-size: 36px; }
+  .text-baloo {
+    font-size: 70px; } }
+
+@media (min-width: 576px) {
+  *h4 {
+    font-size: 19px; }
+  *h2 {
+    font-size: 28px; }
+  .text-baloo {
+    font-size: 40px; } }
 
 body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
@@ -341,7 +366,8 @@ footer .footer-social-icons {
   font-size: 25px;
   position: fixed;
   bottom: 50px;
-  right: 50px; }
+  right: 50px;
+  z-index: 100; }
 
 .scroll-to-top:hover {
   color: #fff;
