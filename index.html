@@ -9,67 +9,176 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.min.css">
     <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./node_modules/material-design-iconic-font/dist/css/material-design-iconic-font.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="./node_modules/font-awesome/css/font-awesome.css">
-
     <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
 </head>
+
 <body>
 
-	<div class="header">
-		<div>
-			<ul>
-		        <li><a href="index.html">HOME</a></li>
-		        <li><a href="index.html">TOURS</a></li>
-		        <li><a href="index.html">DESTINATION</a></li>
-		        <li><a href="index.html">PAGES</a></li>
-		        <li><a href="index.html">BLOG</a></li>
-      		</ul>
-		</div>
-	</div>
-	<div class="homePage">
-		<div class="leftBar">
-			<button>
-		        <span class="fa fa-phone"></span>
-		    </button>
-		    <button>
-		        <span class="fa fa-envelope"></span>
-		    </button>
-		    <button>
-		        <span class="fa fa-share-alt"></span>
-		    </button>
-		    <button>En</button>
-		</div>
-		<div class="midBar">
-			<img src="./images/home-1-slider-slide-1.jpg">
-		</div>
-		<div class="headerCountries">
-			<ul>
-				<li>CROATIA</li>
-				<li>TURKEY</li>
-				<li>ITALY</li>
-				<li>SPAIN</li>
-			</ul>
-		</div>
-	</div>
-	<div class="mailContainer">
-		<div class="row">
-			<div class="col-md-3" style="align-content: center;">
-				<a href="index.html">Destination</a>
-			</div>
-			<div class="col-md-3">
-				<a href="index.html">Date</a>
-			</div>
-			<div class="col-md-3">
-				<a href="index.html">People</a>
-			</div>
-			<div class="col-md-3">
-				<button>SEARCH</button>
-			</div>
-		</div>
-	</div>
+	<section class="Header" style="z-index: 20;">
+        <div class="container">
+            <div class="Logo">
+                <img src="images/logo-default-146x30.png">
+            </div>
+            <nav class="Nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html">TOURS</a></li>
+                    <li><a href="index.html">DESTINATION</a></li>
+                    <li><a href="index.html">PAGES</a></li>
+                    <li><a href="index.html">BLOG</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    
+    <section class="ABF">
+        <div class="container">
+            <div class="ABF__Left">
+                <button><span class="fa fa-phone"></span></button>
+                <button><span class="fa fa-envelope"></span></button>
+                <button><span class="fa fa-share-alt"></span></button>
+                <button>En</button>
+            </div>
+            <div class="ABF__Center">
+                <img src="images/home-1-slider-slide-1.jpg">
+            </div>
+            <div class="ABF__Right">
+                <ul>
+                    <li>CROATIA</li>
+                    <li>TURKEY</li>
+                    <li>ITALY</li>
+                    <li>SPAIN</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="popularDestinations">
+        <div class="mailContainer">
+            <div class="row">
+                <div class="col-md-3" style="align-content: center;">
+                    <a href="index.html">Destination</a>
+                </div>
+                <div class="col-md-3">
+                    <a href="index.html">Date</a>
+                </div>
+                <div class="col-md-3">
+                    <a href="index.html">People</a>
+                </div>
+                <div class="col-md-3" style="text-align: right;">
+                    <button>SEARCH</button>
+                </div>
+            </div>
+            <div class="destinations">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 style="color: white; text-align: left;"> Popular Destinations</h3>
+                    </div>
+                    <div class="col-md-6" style="text-align: right;">
+                        <button>SEE ALL</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    <section class="destinations">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="destinations__item" style="background-image: url(images/destinations-1-363x260.jpg);">
+                        <div class="destinations__item-title">
+                            Greece
+                        </div>
+                        <div class="destinations__item-hover-title">Greece</div>
+                        <div class="destinations__item-count">64</div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="destinations__item" style="background-image: url(images/destinations-2-363x260.jpg);">
+                        <div class="destinations__item-title">
+                            Paris
+                        </div>
+                        <div class="destinations__item-hover-title">Paris</div>
+                        <div class="destinations__item-count">64</div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="destinations__item" style="background-image: url(images/destinations-3-363x260.jpg);">
+                        <div class="destinations__item-title">
+                            Italy
+                        </div>
+                        <div class="destinations__item-hover-title">Italy</div>
+                        <div class="destinations__item-count">64</div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="destinations__item" style="background-image: url(images/destinations-4-363x260.jpg);">
+                        <div class="destinations__item-title">
+                            Egypt
+                        </div>
+                        <div class="destinations__item-hover-title">Egypt</div>
+                        <div class="destinations__item-count">64</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="featured">
+        <div class="container">
+            <div class="featuredToures__header">
+                <h1 style="text-align: center; padding-top: 15px;">Featured Tours</h1>
+            </div>
+            <div class="featuredToures">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div>
+                            <div class="featuredToures__item" style="background-image: url(images/tour-list-2-1-365x248.jpg);"></div>
+                            <h3>Maldives Adventure Tour</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                            <div class="featuredToures__item" style="background-image: url(images/tour-list-2-2-365x248.jpg);"></div>
+                            <h3>Lake Como Family Tour</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                            <div class="featuredToures__item" style="background-image: url(images/tour-list-2-5-365x248.jpg);"></div>
+                            <h3>Brisbane & Cairns Tour</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div>
+                            <div class="featuredToures__item" style="background-image: url(images/tour-list-2-3-365x248.jpg);"></div>
+                            <h3>Jorney to Italy</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                            <div class="featuredToures__item" style="background-image: url(images/tour-list-2-4-365x248.jpg);"></div>
+                            <h3>Private Charters for Surfers</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                            <div class="featuredToures__item" style="background-image: url(images/tour-list-2-6-365x248.jpg);"></div>
+                            <h3>Adventures in Greece</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="seeAllTours">
+                <a href="index.html"><u>SEE ALL TOURS</u></a>
+            </div>
+        </div>
+    </section>
 
     <section class="offer-banner banner bg section-md"   style="background-image: url(images/bg-image-10.jpg);"><!-- offer-banner -->
      <div class="bg-gradient">
