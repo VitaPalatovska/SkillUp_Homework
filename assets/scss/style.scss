@@ -107,6 +107,17 @@ body {
 			color: #ffffff;
 		    line-height: 1;
 		    letter-spacing: -.04em;
+		    text-decoration: none;
+	    }
+	    button {
+	    	width: 100px;
+	    	height: 100px;
+	    	background-color: white;
+	    	border-radius: 50%;
+	    	i {
+	    		font-size: 35px;
+	    		color: #75c15b;
+	    	}
 	    }
 	}
 
@@ -120,6 +131,10 @@ body {
 	    margin-left: 0;
 	    justify-content: center;
 	    float: right;
+	    ul li {
+	    	font-weight: bold;
+	    	padding-bottom: 25px;
+	    }
 	}
 
 	.container {
@@ -144,17 +159,30 @@ body {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    a {
-    	color: white;
-    }
+    border-bottom: 1px solid white;
 }
 
-.featured {
-	background: #DCDCDC;
+.input-group.mb-3 {
+	border-width: 2px solid white;
+	i {
+		color: white; 
+		font-size: 25px;
+		padding-right: 7px;
+		padding-top: 7px; }
+	input {
+		background: #353535; 
+		border: none; }
+}
+	
+
+.mailContainer {
+	padding: 20px 0;
+
 }
 
 .destinations {
-	padding: 40px 0;
+	padding-top: 40px;
+	padding-bottom: 100px;
 	background: #353535;
 
 	&__item {
@@ -164,7 +192,7 @@ body {
 		background-position: center;
 		background-repeat: no-repeat;
 		transform: scale(1);
-		transition: transform .3s ease;
+		transition: transform .5s ease;
 		position: relative;
 	    text-align: center;
 
@@ -178,17 +206,81 @@ body {
 			text-align: center;
 			color: white;
 			position: relative;
+			font-weight: bold;
 		    top: 25%;
-		    left: 5%;
-		    font-size: 50px;
+		    left: 3%;
+		    font-size: 40px;
 		}
 		&-hover-title {
 			display: none;
 		}
 		&-count {
-			display: none;
+			visibility: hidden;
+			position: absolute;
+			bottom: 15%;
+			left: 30%;
+		    z-index: 2;
+		    display: inline-block;
+		    padding: 5px 20px;
+		    border-radius: 20px;
+		    color: #75c15b;
+		    background: #ffffff;
+		    font-weight: 600;
+		    font-size: 18px;
+		}
+
+		&:hover .destinations__item-count {
+			visibility: visible;
+			transition: transform .5s ease;
 		}
 	}
+}
+
+.featured {
+	background: #DCDCDC;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.toures__container {
+	background: white;
+	padding: 20px;
+	margin-bottom: 40px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.tour-rating-footer, .footer-left , .footer-right {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.tour-rating-footer p {
+	margin-right: 20px; 
+}
+
+.tour-rating {
+	display: inline-block;
+    padding: 3px 13px;
+    border-radius: 20px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #ffffff;
+    background: #ffa133;
+}
+
+.seeAll {
+	background-color: #202020;
+	border: none;
+	border-radius: 3px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .featuredToures {
@@ -196,7 +288,8 @@ body {
 
 	&__item {
 		height: 300px;
-		border-radius: 8px;
+		border-top-right-radius: 8px;
+		border-top-left-radius: 8px;
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -224,6 +317,7 @@ body {
 
 
 }
+
 
 
 

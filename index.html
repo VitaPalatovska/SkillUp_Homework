@@ -44,7 +44,11 @@
             </div>
             <div class="ABF__Center">
                 <img src="images/home-1-slider-bg.png" style="background-image: url(images/home-1-slider-slide-1.jpg);">
-                <div class="tour-1-Croatia"><a class="text-baloo" href="index.html">Croatia</a></div>
+                <div class="tour-1-Croatia">
+                    <a class="text-baloo" href="index.html">Croatia</a><br>
+                    <h3 style="color: white;">67 tours</h3><br>
+                    <button><i class="fa fa-long-arrow-down"></i></button>
+                </div>
             </div>
             <div class="ABF__Right">
                 <ul>
@@ -60,27 +64,26 @@
     <section class="popularDestinations">
         <div class="mailContainer">
             <div class="row">
-                <div class="col-md-3" style="align-content: center;">
-                    <a href="index.html">Destination</a>
+                <div class="col-md-3">
+                    <div class="input-group mb-3">
+                        <i class="fa fa-map-marker"></i>
+                        <input type="text" class="form-control" placeholder="Destination" aria-label="Destination" aria-describedby="basic-addon1">
+                    </div>
                 </div>
                 <div class="col-md-3">
-                    <a href="index.html">Date</a>
+                    <div class="input-group mb-3">
+                        <i class="fa fa-calendar"></i>
+                        <input type="text" class="form-control" placeholder="Date" aria-label="Date" aria-describedby="basic-addon1">
+                    </div>
                 </div>
                 <div class="col-md-3">
-                    <a href="index.html">People</a>
+                    <div class="input-group mb-3">
+                        <i class="fa fa-users"></i>
+                        <input type="text" class="form-control" placeholder="People" aria-label="People" aria-describedby="basic-addon1">
+                    </div>
                 </div>
                 <div class="col-md-3" style="text-align: right;">
-                    <button class="search-btn align-self-center"><i class="material-icons">search</i>Search</button>
-                </div>
-            </div>
-            <div class="destinations">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3 style="color: white; text-align: left;"> Popular Destinations</h3>
-                    </div>
-                    <div class="col-md-6" style="text-align: right;">
-                        <button>SEE ALL</button>
-                    </div>
+                    <button class="search-btn align-self-center" style="margin-top: 0;"><i class="material-icons">search</i>Search</button>
                 </div>
             </div>
         </div>
@@ -88,6 +91,16 @@
     
     <section class="destinations">
         <div class="container">
+            <div class="destinations">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 style="color: white; text-align: left;"> Popular Destinations</h3>
+                    </div>
+                    <div class="col-md-6" style="text-align: right;">
+                        <button class="seeAll">SEE ALL</button>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="destinations__item" style="background-image: url(images/destinations-1-363x260.jpg);">
@@ -95,7 +108,7 @@
                             Greece
                         </div>
                         <div class="destinations__item-hover-title">Greece</div>
-                        <div class="destinations__item-count">64</div>
+                        <div class="destinations__item-count">67 tours</div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3">
@@ -104,7 +117,7 @@
                             Paris
                         </div>
                         <div class="destinations__item-hover-title">Paris</div>
-                        <div class="destinations__item-count">64</div>
+                        <div class="destinations__item-count">50 tours</div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3">
@@ -113,7 +126,7 @@
                             Italy
                         </div>
                         <div class="destinations__item-hover-title">Italy</div>
-                        <div class="destinations__item-count">64</div>
+                        <div class="destinations__item-count">22 tours</div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3">
@@ -122,12 +135,13 @@
                             Egypt
                         </div>
                         <div class="destinations__item-hover-title">Egypt</div>
-                        <div class="destinations__item-count">64</div>
+                        <div class="destinations__item-count">93 tours</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <section class="featured">
         <div class="container">
             <div class="featuredToures__header">
@@ -135,42 +149,126 @@
             </div>
             <div class="featuredToures">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-sm-6 col-lg-4">
                         <div>
                             <div class="featuredToures__item" style="background-image: url(images/tour-list-2-1-365x248.jpg);"></div>
-                            <h3>Maldives Adventure Tour</h3>
+                        </div>
+                        <div class="toures__container">
+                            <div>
+                                <h4>Maldives Adventure Tour</h4>
+                                <p>Harmony Hotel 5*</p>
+                            </div>
+                            <div class="tour-rating-footer">
+                                <div class="footer-left">
+                                    <p class="tour-rating">4.9</p>
+                                    <p>4 reviews</p>
+                                </div>
+                                <div>
+                                    <p>5 days</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-6 col-lg-4">
                         <div>
                             <div class="featuredToures__item" style="background-image: url(images/tour-list-2-2-365x248.jpg);"></div>
-                            <h3>Lake Como Family Tour</h3>
+                        </div>
+                        <div class="toures__container">
+                            <div>
+                                <h4>Lake Como Family Tour</h4>
+                                <p>Ritz Hotel 5*</p>
+                            </div>
+                            <div class="tour-rating-footer">
+                                <div class="footer-left">
+                                    <p class="tour-rating">4.1</p>
+                                    <p>5 reviews</p>
+                                </div>
+                                <div>
+                                    <p>7 days</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-6 col-lg-4">
                         <div>
                             <div class="featuredToures__item" style="background-image: url(images/tour-list-2-5-365x248.jpg);"></div>
-                            <h3>Brisbane & Cairns Tour</h3>
+                        </div>
+                        <div class="toures__container">
+                            <div>
+                                <h4>Brisbane & Cairns Tour</h4>
+                                <p>Hilton Hotel 5*</p>
+                            </div>
+                            <div class="tour-rating-footer">
+                                <div class="footer-left">
+                                    <p class="tour-rating">5.5</p>
+                                    <p>6 reviews</p>
+                                </div>
+                                <div>
+                                    <p>6 days</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-sm-6 col-lg-4">
                         <div>
                             <div class="featuredToures__item" style="background-image: url(images/tour-list-2-3-365x248.jpg);"></div>
-                            <h3>Jorney to Italy</h3>
+                        </div>
+                        <div class="toures__container">
+                            <div>
+                                <h4>Jorney to Italy</h4>
+                                <p>Radison Blue Hotel 5*</p>
+                            </div>
+                            <div class="tour-rating-footer">
+                                <div class="footer-left">
+                                    <p class="tour-rating">5.2</p>
+                                    <p>2 reviews</p>
+                                </div>
+                                <div>
+                                    <p>6 days</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-6 col-lg-4">
                         <div>
                             <div class="featuredToures__item" style="background-image: url(images/tour-list-2-4-365x248.jpg);"></div>
-                            <h3>Private Charters for Surfers</h3>
+                        </div>
+                        <div class="toures__container">
+                            <div>
+                                <h4>Charters for Surfers</h4>
+                                <p>Even Hotel 4*</p>
+                            </div>
+                            <div class="tour-rating-footer">
+                                <div class="footer-left">
+                                    <p class="tour-rating">5.8</p>
+                                    <p>7 reviews</p>
+                                </div>
+                                <div>
+                                    <p>13 days</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-6 col-lg-4">
                         <div>
                             <div class="featuredToures__item" style="background-image: url(images/tour-list-2-6-365x248.jpg);"></div>
-                            <h3>Adventures in Greece</h3>
+                        </div>
+                        <div class="toures__container">
+                            <div>
+                                <h4>Adventures in Greece</h4>
+                                <p>Renaissance Hotel 5*</p>
+                            </div>
+                            <div class="tour-rating-footer">
+                                <div class="footer-left">
+                                    <p class="tour-rating">4.8</p>
+                                    <p>3 reviews</p>
+                                </div>
+                                <div>
+                                    <p>3 days</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
