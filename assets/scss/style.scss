@@ -164,6 +164,8 @@ body {
 
 .input-group.mb-3 {
 	border-width: 2px solid white;
+	padding-top: 10px;
+	padding-left: 10px;
 	i {
 		color: white; 
 		font-size: 25px;
@@ -172,6 +174,9 @@ body {
 	input {
 		background: #353535; 
 		border: none; }
+	input[type=text]:focus {
+    	color: white;
+	}
 }
 	
 
@@ -269,6 +274,28 @@ body {
     font-weight: 600;
     color: #ffffff;
     background: #ffa133;
+}
+
+.featuredToures__item {
+	position: relative;
+}
+
+.tourPrice {
+	position: absolute;
+    z-index: 2;
+    bottom: 0px;
+    left: 30px;
+    display: inline-flex;
+    align-items: flex-end;
+    padding: 5px 10px;
+    background: #75c15b;
+    color: #ffffff;
+    border-radius: 5px 5px 0 0;
+    p {
+    	font-size: 24px;
+    	font-weight: bold;
+    	margin: 0;
+    }
 }
 
 .seeAll {
